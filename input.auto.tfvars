@@ -1,0 +1,10 @@
+ca_public_key_file_path = "ca.pem"
+public_key_file_path = "etcd.pem"
+private_key_file_path = "etcd.key"
+owner = "user"
+organization_name = "example"
+ca_common_name= "*.example"
+common_name = "*.example"
+dns_names = ["*.example"]
+ip_addresses = ["127.0.0.1"]
+validity_period_hours = "87600"
